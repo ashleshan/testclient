@@ -1,0 +1,8 @@
+use adp;
+insert into app_type(version, name, description) values(1, 'Template', 'Template application available for all clients'), (1, 'Custom', 'Client specific application');
+insert into app_category(version, name, description) values(1, 'Self Service', 'Self Service'), (1, 'Assist Chat', 'Assist Chat'),(1, 'Assist Voice', 'Assist Voice'), (1, 'Speech', 'Speech'), (1, 'Vivid Speech', 'Vivid Speech'), (1, 'Social', 'Social');
+
+
+
+insert into app_type values(1, 1, 'Template', 'Template application available for all clients'), (2, 1, 'Custom', 'Client specific application');
+insert into app_category values(1, 1, 'Self Service', 'Self Service'), (2, 1, 'Assist Chat', 'Assist Chat'),(3, 1, 'Assist Voice', 'Assist Voice'), (4, 1, 'Speech', 'Speech'), (5, 1, 'Vivid Speech', 'Vivid Speech'), (6, 1, 'Social', 'Social');
